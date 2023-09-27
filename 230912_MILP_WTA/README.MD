@@ -1,5 +1,5 @@
 # 코드
-https://github.com/mhahn0106/wta
+https://github.com/tuliotoffolo/wta
 
 # Requirement
 cplex
@@ -58,3 +58,14 @@ conda install numpy
 > scipy 최신버전으로 하니 GLIBCXX_3.4.29가 없다는 오류 나옴
 
 conda install scipy=1.6
+
+
+---
+
+3.6 버전으로 다시
+
+conda create -n 230924_milp_wta python=3.6
+conda install numpy
+conda install scipy=1.5
+
+해도 여전히 오류가 뜬다.
